@@ -1335,18 +1335,18 @@ select {
     margin-bottom: 0 !important; }
     /* line 31, ../scss/foundation/components/_accordion.scss */
     .accordion dd.active > a {
-      background: #444444; }
+      background: #e8e8e8; }
     /* line 32, ../scss/foundation/components/_accordion.scss */
     .accordion dd > a {
-      background: #222222;
-      color: #efefef;
+      background: #efefef;
+      color: #222222;
       padding: 1rem;
       display: block;
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       /* line 39, ../scss/foundation/components/_accordion.scss */
       .accordion dd > a:hover {
-        background: #444444; }
+        background: #e3e3e3; }
     /* line 42, ../scss/foundation/components/_accordion.scss */
     .accordion dd > .content {
       display: none;
@@ -1354,7 +1354,7 @@ select {
       /* line 45, ../scss/foundation/components/_accordion.scss */
       .accordion dd > .content.active {
         display: block;
-        background: #cccccc; }
+        background: white; }
 
 /* line 110, ../scss/foundation/components/_alert-boxes.scss */
 .alert-box {
@@ -3861,8 +3861,7 @@ ul.pagination {
   border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
-  }
+  background: #f2f2f2; }
   /* line 52, ../scss/foundation/components/_panels.scss */
   .panel > :first-child {
     margin-top: 0; }

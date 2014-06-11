@@ -1,17 +1,202 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Foundation Starter | CHANGE ME CHANGE ME CHANGE ME</title>
+        <title>Wisconsin Register of Deeds</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
+        <style type="text/css">
+/*   * {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border: 1px solid red;
+        }*/
+        </style>
     </head>
     <body>
+    
+    <div class="fixed">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+          <h1><a href="#">Wisconsin Register of Deeds</a></h1>
+          </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
 
-      <!-- PUT YOUR HTML HERE -->
+      <section class="top-bar-section">
+      <!-- Right Nav Section -->
+        <ul class="right">
+          <!-- <li class="active"><a href="#">Right Button Active</a></li> -->
+          <li class="has-dropdown">
+            <a href="#">About Us</a>
+            <ul class="dropdown">
+            <li><a href="#">Officers</a></li>
+            <li><a href="#">Committees</a></li>
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Photo</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Offices</a>
+            <ul class="dropdown">
+            <li><a href="#">Wisconsin Map</a></li>
+            <li><a href="#">Alpha List of Counties</a></li>
+            <li class="has-dropdown"><a href="#">Counties: Adams - Crawford</a>
+              <ul class="dropdown">
+                <li><a href="#">Adams</a></li>
+                <li><a href="#">Ashland</a></li>
+                <li><a href="#">Barron</a></li>
+                <li><a href="#">Crawford</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown"><a href="#">Counties: Marathon - Pierce</a>
+              <ul class="dropdown">
+                <li><a href="#">Marathon</a></li>
+                <li><a href="#">Monroe</a></li>
+                <li><a href="#">Oneida</a></li>
+                <li><a href="#">Pierce</a></li>
+              </ul>  
+            </li>
+            <li class="has-dropdown"><a href="#">Counties: Taylor - Wood</a>
+              <ul class="dropdown">
+                <li><a href="#">Taylor</a></li>
+                <li><a href="#">Washington</a></li>
+                <li><a href="#">Winnebago</a></li>
+                <li><a href="#">Wood</a></li>
+              </ul>  
+            </li>
+          </ul>
+          <li class="has-dropdown">
+            <a href="#">Document Fees</a>
+            <ul class="dropdown">
+            <li><a href="#">Fee Schedule</a></li>
+            <li><a href="#">Checklist</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Transfer Forms</a></li>
+            <li><a href="#">Tutorial</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Online Access</a>
+            <ul class="dropdown">
+            <li><a href="#">Online Counties</a></li>
+            <li><a href="#">Copies of Records</a></li>
+            <li><a href="#">eRecord Counties</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Vital Records</a>
+            <ul class="dropdown">
+            <li><a href="#">Fees/Applications</a></li>
+            <li><a href="#">Annotation Forms</a></li>
+            <li><a href="#">Genealogy Links</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Resources</a>
+            <ul class="dropdown">
+            <li><a href="#">County Courthouses</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Related links</a></li>
+            </ul>
+          </li>
+        </ul>
 
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="has-form">
+          <div class="row collapse">
+            <div class="large-8 small-9 columns">
+            <input type="text" placeholder="Site Search">
+            </div>
+            <div class="large-4 small-3 columns">
+            <a href="#" class="alert button expand">Search</a>
+            </div>
+          </div>
+        </li>
+      </section>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="panel">
+          <img src="http://i59.tinypic.com/xpo7fb.jpg"></a>
+           <p style="strong; text-align: right">Capitol building during the Tulip Festival.</p>
+        </div>
+      </div>  
+    </div>
+
+    <hr />
+
+    <div class="row">
+      <div class="small-8 columns">
+        <p>The Wisconsin Register of Deeds Association presents the information on this web site as a service to our members and other Internet users. While some of the information on this site is about legal issues or forms, it is not legal advice. Moreover, due to the rapidly changing nature of the law and our reliance on information provided by outside sources, we make no warranty or guarantee concerning the accuracy or reliability of the content at this site or at other sites to which we link.</p>
+      </div>
+      <div class="small-4 columns">
+        <ul class="vcard">
+          <li class="fn">Cheryl McBride</li>
+          <li class="street-address">123 Colonial Ave.</li>
+          <li class="locality">Madison</li>
+          <li>
+            <span class="state">Wisconsin</span>
+            <span class="zip">53001</span>
+          </li>
+          <li class="email">
+            <a href="#">questions@wrda.org</a>
+          </li>
+      </div>
+    </div>
+
+<!--     <hr /> -->
+
+    <dl class="accordion" data-accordion>
+      <dd>
+        <a href="#panel1">The Importance and Nature of the Register of Deeds</a>
+          <div id="panel1" class="content active">
+            <dl class="tabs" data-tab>
+              <dd class="active"><a href="#panel2-1">Ownership of Rights</a></dd>
+              <dd><a href="#panel2-2">Responsibilities</a></dd>
+              <dd><a href="#panel2-3">General Nature</a></dd>
+              <dd><a href="#panel2-4">Summary</a></dd>
+            </dl>
+            <div class="tabs-content">
+            <div class="content active" id="panel2-1">
+              <p>Ownership of rights in and claims on property constitute one of the chief forms of wealth in American society. Accurate descriptions of property help society avoid wasteful battles over boundaries and rights. Records of the existence and exact nature of those rights are keys to orderly economic activity relating to that property. The Register of Deeds is able to tell who, what, and when about property. This function is extremely important.  Local government property tax base is defined from records of the ROD.</p>
+            </div>
+            <div class="content" id="panel2-2">
+              <p>The responsibilities of the office are set forth in the Wisconsin Statutes. The Register of Deeds serves a statewide purpose, although elected at the county level.</p>
+            </div>
+            <div class="content" id="panel2-3">
+              <p>The general nature of the office of the Register of Deeds is described as ministerial. The ROD has no discretion about whether or not to perform tasks required by the Wisconsin Statutes. Nevertheless, an opinion of the Wisconsin Attorney General qualifies this general position somewhat.</p>
+            </div>
+            <div class="content" id="panel2-4">
+              <p>In summary, the Register of Deeds must, from time to time, exercise judgment and decide whether statutory conditions are met before accepting a document. A good rule to follow is to consult the corporation counsel or district attorney when the proper action is unclear.</p>
+            </div>
+          </div>
+        </div>
+      </dd>
+      <dd>
+        <a href="#panel2">WRDA Promotes Consumer Protection</a>
+        <div id="panel2" class="content">
+          The Wisconsin Register of Deeds Assn (WRDA) would like to announce that AB-592 relating to: solicitation of a fee by a business or individual for a public record, granting rule-making authority, and providing a penalty, recently passed and was signed into law by Governor Walker on April 8th, 2014 as ACT 247.
+ 
+          The legislation requires non-government agencies to specify there is no requirement to purchase a public record or deed from them, list what government agency does provide that record, and include the pricing of that government agency.  The legislation puts specific perimeters on solicitations that companies can send consumers.
+        </div>
+      </dd>
+      <dd>
+        <a href="#panel3">Do you have a low resolution monitor? Click here to a site map that will get you links to our website.</a>
+      </dd>
+    </dl>
       <!-- body goes here -->
       <script type="text/javascript" src="./js/jquery.min.js"></script>
       <script type="text/javascript" src="./js/foundation.min.js"></script>
